@@ -1,2 +1,5 @@
 # dbn-image-classifier
- image classification between faces and non-faces with deep belief network and logistic regression
+ image classification between faces and non-faces 
+ with deep belief network (DBN) and logistic regression
+
+dependencies:numpy, os, PIL, matplotlib, scipy, scikitlearn, pickle
