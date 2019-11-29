@@ -2,7 +2,6 @@ import glob
 import re
 import os
 import matplotlib.pyplot as plt
-
 import numpy as np
 import cv2
 from PIL import Image
@@ -12,7 +11,7 @@ def natural_sort(l):
     alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
     return sorted(l, key = alphanum_key)
 
-im = cv2.imread("images/test/pewds.jpg")
+im = cv2.imread("images/test/test2.jpg")
 #im = cv2.cvtColor(np.array(Image.open(images[0])), cv2.COLOR_BGR2GRAY)
 # selective search
 #im = cv2.resize(im, (newWidth, newHeight))    
